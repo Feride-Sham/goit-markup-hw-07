@@ -1,36 +1,36 @@
 @font-face {
   font-family: "Raleway";
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
-  src: url("../../css/fonts/raleway/raleway-v17-latin-700.woff2") format("woff2"), url("../../css/fonts/raleway/raleway-v17-latin-700.woff") format("woff");
+  src: url("../../fonts/raleway/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../../fonts/raleway/raleway-v17-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../../css/fonts/roboto/roboto-v20-latin-regular.woff2") format("woff2"), url("../../css/fonts/roboto/roboto-v20-latin-regular.woff") format("woff");
+  src: url("../../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
-  font-style: normal;
+  font-style: medium;
   font-weight: 500;
-  src: url("../../css/fonts/roboto/roboto-v20-latin-500.woff2") format("woff2"), url("../../css/fonts/roboto/roboto-v20-latin-500.woff") format("woff");
+  src: url("../../fonts/roboto/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../../fonts/roboto/roboto-v20-latin_cyrillic-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../../fonts/roboto/roboto-v20-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
-  src: url("../../css/fonts/roboto/roboto-v20-latin-700.woff2") format("woff2"), url("../../css/fonts/roboto/roboto-v20-latin-700.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../../css/fonts/roboto/roboto-v20-latin-900.woff2") format("woff2"), url("../../css/fonts/roboto/roboto-v20-latin-900.woff") format("woff");
+  font-weight: 900;
+  src: url("../../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff");
 }
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -724,22 +724,6 @@ header {
   line-height: 1.71;
 }
 
-.invisible-title {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .feature-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -763,6 +747,22 @@ header {
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
+}
+
+.invisible-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .examples {
